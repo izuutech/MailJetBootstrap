@@ -4,12 +4,12 @@ const request = mailjet.post("send", { version: "v3.1" }).request({
     {
       From: {
         Email: "youremail@gmail.com",
-        Name: "Sender Email",
+        Name: "Sender Name",
       },
       To: [
         {
           Email: "youremail@gmail.com",
-          Name: "Sender Email",
+          Name: "Sender Name",
         },
       ],
       Subject: "Greetings from Mailjet.",
